@@ -1,0 +1,17 @@
+.flx-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    .id{
+        p{
+            text-decoration: underline;
+            color: #007bff;
+            cursor: pointer;
+        }
+    }
+   
+    img{
+        width: 24px;
+        border-radius: 50%;
+    }
+}

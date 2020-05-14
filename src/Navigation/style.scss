@@ -1,0 +1,30 @@
+.navigation-bar{
+    width: 56px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #222;
+    text-align: center;
+    ul{
+        padding-inline-start: 0px;
+        margin: 0px;
+        list-style: none;
+        li{
+           
+            cursor: pointer;
+            a{
+                padding: 14px 0px;
+                display: block;
+            }
+            &:hover{
+                background-color: #666;
+            }
+        }
+    }
+}
+.page-body{
+    margin-left: 56px;
+    padding: 40px;
+    margin-top:56px;
+}
